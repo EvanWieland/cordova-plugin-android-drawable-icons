@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-android-drawable-icons",
+  "version": "1.0.0",
+  "description": "Cordova plugin to assist in using drawable icons in an Android Cordova application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanWieland/cordova-plugin-android-drawable-icons.git"
+  },
+  "keywords": [
+    "drawable",
+    "icons",
+    "android"
+  ],
+  "author": "Evan Wieland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvanWieland/cordova-plugin-android-drawable-icons/issues"
+  },
+  "homepage": "https://github.com/EvanWieland/cordova-plugin-android-drawable-icons#readme"
+}
