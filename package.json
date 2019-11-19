@@ -8,24 +8,23 @@
       "android"
     ]
   },
-  "scripts": {
-    "test": "echo 0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/EvanWieland/cordova-plugin-android-drawable-icons"
   },
   "keywords": [
+    "cordova",
     "drawable",
     "icons",
-    "android"
+    "cordova-android",
+    "cordova-ios"
   ],
-  "author": "Evan Wieland",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EvanWieland/cordova-plugin-android-drawable-icons/issues"
+  "scripts": {
+    "test": "echo 0"
   },
-  "homepage": "https://github.com/EvanWieland/cordova-plugin-android-drawable-icons#readme",
+  "author": "Evan Wieland",
+  "homepage": "https://bitsmithy.io",
+  "license": "MIT",
   "engines": [
     {
       "name": "cordova",
