@@ -1,24 +1,18 @@
+
+
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-android-drawable-icons" version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-android-drawable-icon" version="1.0.0">
     <name>Android Drawable Icons</name>
-    <description>Cordova plugin to assist in using drawable icons in an Android Cordova application.</description>
     <license>MIT</license>
+    <description>Cordova plugin to assist in using drawable icons in an Android Cordova application.</description>
     <keywords>drawable, icons, android</keywords>
     <repo>https://github.com/EvanWieland/cordova-plugin-android-drawable-icons.git</repo>
-    
+
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
 
-    <!-- Android -->
-    <platform name="android">        
-         <config-file parent="/manifest" target="AndroidManifest.xml" mode="merge">
-          <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" />
-        </config-file>
+    <platform name="android">
 
-        <config-file parent="/manifest/application" target="AndroidManifest.xml">
-          <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_stat_name" />
-          <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/colorAccent" />
-        </config-file>
     </platform>
 </plugin>
