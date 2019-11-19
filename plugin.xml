@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-android-drawable-icon" version="1.0.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-android-drawable-icon" version="0.1.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>Android Drawable Icons</name>
-    <license>MIT</license>
+    <author>Evan Wieland</author>
     <description>Cordova plugin to assist in using drawable icons in an Android Cordova application.</description>
     <keywords>drawable, icons, android</keywords>
-    <repo>https://github.com/EvanWieland/cordova-plugin-android-drawable-icons.git</repo>
-
+    <license>MIT</license>
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
-
-    <platform name="android">
-
-    </platform>
+    <platform name="android"></platform>
 </plugin>
