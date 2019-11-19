@@ -9,13 +9,14 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
     <platform name="android">
-        <config-file parent="/manifest" target="AndroidManifest.xml" mode="merge">
-            <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" />
-        </config-file>
-
-        <config-file parent="/manifest/application" target="AndroidManifest.xml">
-            <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_stat_name" />
-            <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/colorAccent" />
-        </config-file>
+         <edit-config file="AndroidManifest.xml" mode="merge" platform="android" target="/manifest/application">
+        <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round"/>
+    </edit-config>
+    <edit-config file="AndroidManifest.xml" mode="replace" platform="android" target="/manifest/application">
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon"
+                   android:resource="@drawable/ic_stat_name"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color"
+                   android:resource="@color/colorAccent"/>
+    </edit-config>
     </platform>
 </plugin>
