@@ -11,13 +11,14 @@
     </engines>
 
     <!-- Android -->
-    <platform name="android">
-       <config-file parent="/manifest" mode="merge">
-        <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" />
-       </config-file>
-       <config-file parent="/manifest/application" mode="merge">
-        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_stat_name" />
-        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/colorAccent" />
-       </config-file>
+    <platform name="android">        
+         <config-file parent="/manifest" target="AndroidManifest.xml" mode="merge">
+          <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" />
+        </config-file>
+
+        <config-file parent="/manifest/application" target="AndroidManifest.xml">
+          <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_stat_name" />
+          <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/colorAccent" />
+        </config-file>
     </platform>
 </plugin>
