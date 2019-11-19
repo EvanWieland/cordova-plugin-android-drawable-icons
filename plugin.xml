@@ -9,7 +9,7 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
     <platform name="android">
-        <config-file parent="/manifest" target="AndroidManifest.xml" mode="merge">
+        <config-file parent="/manifest/application" target="AndroidManifest.xml" mode="merge">
             <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" />
         </config-file>
 
