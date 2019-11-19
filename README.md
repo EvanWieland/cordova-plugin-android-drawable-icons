@@ -1,4 +1,4 @@
-# 🖍️ Cordova Netto Plugin
+# 🖍️ Cordova Android Drawable Icons Plugin
 Cordova plugin to assist in using drawable icons in an Android Cordova application. 
 
 ## Installation
